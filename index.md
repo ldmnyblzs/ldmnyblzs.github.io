@@ -7,4 +7,6 @@ layout: default
 
 {{ post.excerpt }}
 
+---
+
 {% endfor %}
