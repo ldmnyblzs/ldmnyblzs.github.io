@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.posts %}
-# [{{ post.url | absolute_url }}]({{ post.title }})
+# [{{ post.title }}]({{ post.url | absolute_url }})
 
 {{ post.excerpt }}
 
